@@ -75,23 +75,24 @@ section {display:flex;
   border-radius: 15px;
   border: 1px solid none;
   background:whitesmoke;
-  margin:20px auto;
+  margin:20px;
   padding:2rem 2rem;
   display: flex;
 }
 nav{
   margin: 0 auto ;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+
 }
 a{
+
   text-decoration: none;
   color:black;
   margin:0 auto;
   font-size: 3rem;
-  padding:  5% ; 
+  padding:  0px 5rem ; 
   width:100%;
+
 }
 
 .info{
@@ -103,21 +104,50 @@ width:100%;
 margin:0 auto;
 max-height: 1000px;
 }
-#features:hover {
+.member:hover {
   height:auto;
   /* width:100%; */
   margin:0 auto;
   max-height: 1000px;
   animation: slow 100s running;
-  
+  display: flex;
 }
-#features{
+.member{
   animation:slow 100s paused;
+  margin :0 auto ;
+  flex-direction: row;
 }
 @keyframes slow{
-  0%{width:95%;}
-  5%{
+  0%{width:95%;
+  }
+  2%{
     width:40%;
   }
   100%{width:40%;}
+}
+@media(max-width:550px){
+  .member:hover {
+    /* width:100%; */
+    margin:0 auto;
+    animation: slow 8s infinite;
+
+  }
+  .member{
+    animation:slow 10s paused;
+    margin :0px;
+
+  }
+  @keyframes slow{
+    0%{width:95%;
+      margin:0px;
+      height: 30%;
+    }
+    2%{
+      width:40%;
+      height:40%;
+      margin:0px;
+    }
+    100%{width:40%;}
+  }
+
 }
