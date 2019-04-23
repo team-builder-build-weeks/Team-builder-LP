@@ -147,7 +147,7 @@ input, select, textarea {
 		}
 
 		a:hover {
-			color: #ed786a;
+			color: #bb1333;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1766,7 +1766,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #ed786a;
+		background: #bb1333;
 		color: #fff !important;
 		text-transform: uppercase;
 		border-radius: 4px;
@@ -1839,7 +1839,7 @@ input, select, textarea {
 	}
 
 	.box.excerpt .date {
-		background: #878787;
+		background: #bb1333;
 		color: #fff;
 		font-weight: 400;
 		text-transform: uppercase;
@@ -1941,7 +1941,7 @@ input, select, textarea {
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: #777;
+				color: black;
 				outline: 0;
 				display: block;
 			}
@@ -1979,12 +1979,12 @@ input, select, textarea {
 			}
 
 			#nav > ul > li.active > a:before, #nav > ul > li:hover > a:before {
-				background: #ED786A;
+				background: #bb1333;
 				color: #fff;
 			}
 
 			#nav > ul > li.active > a > span, #nav > ul > li:hover > a > span {
-				color: #ED786A;
+				color: #bb1333;
 			}
 
 	.dropotron {
@@ -2051,7 +2051,7 @@ input, select, textarea {
 				-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-				color: #ed786a;
+				color: #bb1333;
 			}
 
 /* Features */
