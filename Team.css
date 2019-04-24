@@ -204,10 +204,6 @@ ul {
 .whole-team {
   justify-content: center;
 }
-.one {
-  border: 3px solid rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-}
 .here {
   display: none;
 }
@@ -218,6 +214,7 @@ ul {
   padding: 1rem;
   font-size: 1.5rem;
   margin: 1% 1%;
+  display: none;
 }
 .plink {
   display: flex;
@@ -226,18 +223,6 @@ ul {
   margin: 0 auto;
   padding: 1rem;
   font-size: 3rem;
-}
-.two {
-  border: 3px solid rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-}
-.three {
-  border: 3px solid rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-}
-.four {
-  border: 3px solid rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
 }
 .all-pro-pics {
   height: auto;
@@ -251,14 +236,15 @@ ul {
   margin: 20px ;
   width: 400px;
 }
-.five {
-  border: 3px solid rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
+.one {
+  background: green;
+  border-radius: 15px;
+}
+.two {
+  background: red;
+  border-radius: 15px;
 }
 .info {
-  display: none;
-}
-.data {
   display: block;
 }
 .Team {
