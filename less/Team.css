@@ -170,16 +170,15 @@ html {
   max-width: 1200px;
   margin: 0 auto;
   font-size: 62.5%;
-  background-color: #e5e5e5;
+  background: #282828;
   font-family: "Source Sans Pro";
 }
 section {
   border-radius: 15px;
-  border: 1px solid #e5e5e5;
-  background: whitesmoke;
-  margin: 0 auto;
+  background: white;
   padding: 1.5rem 1.5rem;
   display: flex;
+  flex-wrap: wrap;
 }
 nav {
   margin: 20px auto ;
@@ -202,10 +201,17 @@ ul {
 #header {
   margin: 20px auto;
 }
-.one {
-  background: green;
+.whole-team {
+  justify-content: center;
 }
-.info {
+.one {
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+.here {
+  display: none;
+}
+.one-me {
   background: rgba(255, 255, 255, 0.685);
   border: 4px solid rgba(114, 180, 91, 0.712);
   border-radius: 15px;
@@ -222,25 +228,35 @@ ul {
   font-size: 3rem;
 }
 .two {
-  background: purple;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
 }
 .three {
-  background: blue;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
 }
 .four {
-  background: orange;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
 }
 .all-pro-pics {
   height: auto;
   width: 100%;
-  margin: 0 auto;
-  max-height: 1000px;
+  max-height: 800px;
+  max-width: 800px;
 }
 .member {
-  margin: 20px auto ;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px ;
+  width: 400px;
+}
+.five {
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
 }
 .info {
-  display: block;
+  display: none;
 }
 .data {
   display: block;
