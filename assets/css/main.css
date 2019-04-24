@@ -1631,7 +1631,7 @@ input, select, textarea {
 				left: 0;
 				top: 2em;
 				display: block;
-				background: #878787;
+				background: #bb1333;				;
 				color: #e4e4e4;
 				width: 1.65em;
 				height: 1.65em;
@@ -1853,6 +1853,24 @@ input, select, textarea {
 		margin: 0 0 2.5em 0;
 	}
 
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(0deg) scale(1.0) translateX(0px) translateY(0%) skewX(0deg) skewY(0deg);
+        transform-origin: 50% 50%;
+        }
+    50%{
+        transform: rotate(180deg) scale(1.0) translateX(0px) translateY(0%) skewX(0deg) skewY(0deg);
+        transform-origin: 50% 50%;
+        }
+    100%{
+        transform: rotate(360deg) scale(1.0) translateX(0px) translateY(0%) skewX(0deg) skewY(0deg);
+        transform-origin: 50% 50%;
+        }
+}
+
+.box.excerpt .date{
+    animation: yourAnimation 3s infinite 0s linear;
+}
 /* Icons */
 
 	.icon {
@@ -2396,7 +2414,8 @@ input, select, textarea {
 						text-align: center;
 						line-height: 40px;
 						font-size: 18px;
-						color: #aaa;
+						color: #55596d
+						;
 					}
 
 					#titleBar .toggle:active:before {
@@ -2428,7 +2447,8 @@ input, select, textarea {
 				border-right: solid 2px #3c3c3c;
 				font-weight: 400;
 				text-transform: uppercase;
-				color: #888;
+				color: #55596d
+				;
 				letter-spacing: 2px;
 				font-size: 0.85em;
 			}
