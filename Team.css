@@ -293,6 +293,16 @@ animation:big 3s infinite;
   }
 } */
 /* mobile */
+
+.about{
+  padding:1.5rem;
+  margin: 20px auto;
+}
+.small{
+  
+  font-size: 2rem;
+  text-align: center;
+}
 @media(max-width:500px){
   .home{
     margin:0 auto;
