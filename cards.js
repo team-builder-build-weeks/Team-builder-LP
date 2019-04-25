@@ -1,18 +1,20 @@
-class Drop{
+class Dropdown{
   constructor(ele){
     this.ele = ele;
-    console.log(ele);
-    this.mem = this.ele.querySelector(".member")
-    this.tar = this.ele.querySelector(".on-me");
+    this.button = this.ele.querySelector(".dropdown-button");
+    this.content = this.ele.querySelector(".dropdown-content");
 
-    this.mem.addEventListener("click",() => {this.togg()});
+    this.button.addEventListener("click", () => {
+      this.toggleContent();
+    });
   }
-  togg(){
-    console.log("mem")
-    this.mem.classList.toggle("info");
-    this.ele.classList.add("data")
+  toggleContent() {
+    // Toggle the ".dropdown-hidden" class off and on
+    this.content.classList.toggle("dropdown-hidden");
   }
 }
-let drop = document.querySelectorAll(".member").forEach(sec =>  {
-  console.log(sec)
-  new Drop(sec)});
+
+// Nothing to do here, just study what the code is doing and move on to the Dropdown class
+let dropdowns = document
+  .querySelectorAll(".dropdown")
+  .forEach(dropdown => new Dropdown(dropdown));
