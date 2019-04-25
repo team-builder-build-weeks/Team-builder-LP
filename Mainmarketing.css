@@ -1,4 +1,8 @@
 
+<<<<<<< HEAD:Team.css
+=======
+@import url("font-awesome.min.css");
+>>>>>>> 62c5130fda2cc38df339491a112b45a8154c258b:Mainmarketing.css
 @font-face {
   font-family: 'Arvo';
   font-style: normal;
@@ -293,6 +297,7 @@ animation:big 3s infinite;
 }
 
 .one {
+<<<<<<< HEAD:Team.css
   background: rgba(114, 184, 114, 0.603);
   border-radius: 15px;
 }
@@ -302,6 +307,17 @@ animation:big 3s infinite;
 }
 .three {
   background: rgba(233, 92, 92, 0.625);
+=======
+  text-align: center;
+  border-radius: 15px;
+}
+.two {
+  text-align: center;
+  border-radius: 15px;
+}
+.three {
+  text-align: center;
+>>>>>>> 62c5130fda2cc38df339491a112b45a8154c258b:Mainmarketing.css
   border-radius: 15px;
 }
 .four {
@@ -319,6 +335,7 @@ animation:big 3s infinite;
 
 
 .Team {
+<<<<<<< HEAD:Team.css
   color:rgb(129, 196, 255);
 }
 /* @keyframes blink{
@@ -332,6 +349,13 @@ animation:big 3s infinite;
     coler:grey;
   }
 } */
+=======
+  color: #bb1333;
+}
+footer {
+  display: flex;
+}
+>>>>>>> 62c5130fda2cc38df339491a112b45a8154c258b:Mainmarketing.css
 /* mobile */
 @media(max-width:500px){
   .home{
