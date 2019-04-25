@@ -175,7 +175,7 @@ html {
 }
 section {
   border-radius: 15px;
-  background: white;
+  background: whitesmoke;
   padding: 1.5rem 1.5rem;
   display: flex;
   flex-wrap: wrap;
@@ -273,7 +273,7 @@ ul {
   display: none;
 }
 .Team {
-  color: #81c4ff;
+  color: #3c8aff;
 }
 /* @keyframes blink{
   0%{
@@ -292,6 +292,8 @@ ul {
   margin: 20px auto;
 }
 .small {
+  margin: 0 auto;
+  width: 75%;
   font-size: 2rem;
   text-align: center;
 }
