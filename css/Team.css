@@ -275,8 +275,17 @@ ul {
 .Team {
   color: #3c8aff;
 }
-
-
+/* @keyframes blink{
+  0%{
+    color: grey;
+  }
+  50%{
+    color:  antiquewhite;
+  }
+  100%{
+    coler:grey;
+  }
+} */
 /* mobile */
 .about {
   padding: 1.5rem;
