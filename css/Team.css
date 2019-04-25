@@ -275,7 +275,8 @@ ul {
 .Team {
   color: #3c8aff;
 }
-/* @keyframes blink{
+/* 
+@keyframes blink{
   0%{
     color: grey;
   }
@@ -286,6 +287,7 @@ ul {
     coler:grey;
   }
 } */
+
 /* mobile */
 .about {
   padding: 1.5rem;
