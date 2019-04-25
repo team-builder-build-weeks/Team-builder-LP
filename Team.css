@@ -238,7 +238,7 @@ text-align: center;
   width: 400px;
 }
 .member:hover {
-animation:big 3s infinite;
+animation:big 3s 1;
 }
 @keyframes big{
   0%{
