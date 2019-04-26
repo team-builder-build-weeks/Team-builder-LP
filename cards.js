@@ -27,17 +27,17 @@ const headReturn = document.querySelector(".top-n");
 headReturn.addEventListener("click", event => {
   event.target.style.color= 'blue';
 })
-const smallz = document.querySelector(".small");
+const smallz = document.querySelector(".TeamT");
 smallz.addEventListener("mouseover", event => {
   event.target.style.color= 'black';
   event.target.style.backgroundColor= 'white'
 })
-const smallzChange = document.querySelector(".small");
+const smallzChange = document.querySelector(".TeamT");
 smallzChange.addEventListener("click", event => {
   event.target.style.color= 'White';
   event.target.style.backgroundColor = 'black';
 })
-const smallzReturn = document.querySelector(".small");
+const smallzReturn = document.querySelector(".TeamT");
 smallzReturn.addEventListener("dblclick", event => {
   event.target.style.color= 'red';
   event.target.backgroundColor= 'white';
