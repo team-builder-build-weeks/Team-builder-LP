@@ -222,7 +222,7 @@ ul {
   font-weight: bold;
 }
 .dropdown .dropdown-button:hover {
-  background-color: #be2530;
+  background-color: black;
 }
 .dropdown .dropdown-content {
   width: 100%;
@@ -243,7 +243,7 @@ ul {
 }
 .dropdown .dropdown-link:hover {
   color: #ffffff;
-  background-color: #931d25;
+  background-color: black;
 }
 .dropdown .dropdown-hidden {
   display: none;
@@ -271,7 +271,13 @@ text-align: center;
   max-height: 800px;
   max-width: 800px;
 }
-/* .member {
+.about {
+  font-size: 1.7rem;
+  text-align: center;
+  justify-content: space-around;
+}
+
+ .member {
   flex-direction: row;
   justify-content: space-around;
   margin: 20px ;
