@@ -253,6 +253,7 @@ footer {
   color: #3c8aff;
 }
 .team-pic {
+  display:flex;
   margin: 0 auto;
   max-height: 400px;
   padding: 30px ;
