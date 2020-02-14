@@ -285,7 +285,7 @@ address {
     margin: 0 auto;
     padding: 1rem;
   }
-  .top-n {
+  .topP {
     display: flex;
     flex-flow: column;
     text-align: center;
