@@ -225,6 +225,7 @@ ul {
 }
 .topP {
   display:flex;
+  flex-wrap: wrap;
 }
 p {
   padding: 1.5rem;
