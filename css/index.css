@@ -223,6 +223,9 @@ ul {
 .rad {
   font-size: 2rem;
 }
+.topP {
+  display:flex;
+}
 p {
   padding: 1.5rem;
   display: flex;
