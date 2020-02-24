@@ -252,10 +252,10 @@ footer {
 .Team {
   color: #3c8aff;
 }
-.team-pic {
-  display:flex;
+.team-pic{
   margin: 0 auto;
-  max-height: 400px;
+  max-width: 100%;
+  height: auto;
   padding: 30px ;
 }
 address {
