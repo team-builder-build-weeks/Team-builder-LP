@@ -166,6 +166,9 @@ textarea {
   appearance: none;
 }
 /* reset */
+*{
+  box-sizing: border-box;
+};
 html {
   max-width: 1200px;
   margin: 0 auto;
@@ -237,7 +240,6 @@ h3 {
   font-size: 4rem;
 }
 .foot {
-  width: 20%;
   margin: 0 auto;
 }
 footer {
@@ -260,6 +262,7 @@ footer {
   padding: 30px ;
 }
 address {
+  font-size: 2rem;
   margin: 0 auto;
 }
 .one {
@@ -295,6 +298,5 @@ address {
   .topP {
     display: flex;
     flex-flow: column;
-    text-align: center;
   }
 }

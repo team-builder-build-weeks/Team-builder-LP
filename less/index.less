@@ -21,7 +21,10 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+  display: block;}
+  *{
+    box-sizing: border-box;
+  };
 
 body {
 	line-height: 1;
@@ -88,6 +91,8 @@ section {
 nav{
   margin: 20px auto ;
   display: flex;
+  flex-direction:column;
+
 
 }
 a{
@@ -105,7 +110,7 @@ ul{
   display: flex;
 }
 #header {
-  margin: 20px auto;
+  margin: 20px 10px;
 }
 
 .plink {
@@ -144,7 +149,6 @@ h3 {
 }
 
 .foot{
-width: 20%;
 margin: 0 auto;
 }
 footer{
@@ -209,4 +213,7 @@ address{
 text-align: center;
 }
   
+}
+@media(min-width:768px){
+  nav {flex-direction:row;}
 }
