@@ -23,6 +23,9 @@ const headNav = document.querySelector(".top-n");
 headNav.addEventListener("mouseover", event => {
   event.target.style.color= '#bb1333';
 })
+headNav.addEventListener("mouseout", event => {
+    event.target.style.color= 'black';
+  })
 const headReturn = document.querySelector(".top-n");
 headReturn.addEventListener("click", event => {
   event.target.style.color= 'blue';
