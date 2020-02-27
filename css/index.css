@@ -168,7 +168,7 @@ textarea {
 /* reset */
 *{
   box-sizing: border-box;
-};
+}
 html {
   max-width: 1200px;
   margin: 0 auto;
