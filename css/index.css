@@ -202,7 +202,7 @@ ul {
   display: flex;
 }
 #header {
-  margin: 20px auto;
+  margin: 20px 10px;
 }
 .plink {
   display: flex;
@@ -300,3 +300,7 @@ address {
     flex-flow: column;
   }
 }
+@media(min-width:768px){
+  nav {flex-direction:row;}
+}
+ 
